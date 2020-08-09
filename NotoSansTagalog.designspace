@@ -48,7 +48,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="instance_Demi" familyname="NotoSansTagalog" stylename="Demi" filename="instances/NotoSansTagalog-Demi.ufo">
+    <instance name="instance_SemiBold" familyname="NotoSansTagalog" stylename="SemiBold" filename="instances/NotoSansTagalog-SemiBold.ufo">
       <location>
         <dimension name="weight" xvalue="600"/>
       </location>

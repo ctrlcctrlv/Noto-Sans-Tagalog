@@ -68,10 +68,10 @@ i1.info = True
 doc.addInstance(i1)
 
 i2 = InstanceDescriptor()
-i2.name = 'instance_Demi'
+i2.name = 'instance_SemiBold'
 i2.familyName = familyName
-i2.styleName = "Demi"
-i2.path = os.path.join(root, "instances", "NotoSansTagalog-Demi.ufo")
+i2.styleName = "SemiBold"
+i2.path = os.path.join(root, "instances", "NotoSansTagalog-SemiBold.ufo")
 i2.location = dict(weight=600)
 i2.kerning = True
 i2.info = True
