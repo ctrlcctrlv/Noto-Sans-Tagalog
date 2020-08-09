@@ -18,10 +18,15 @@ for f in *FontForge.ufo; do
     mv ${f/-FontForge/}/features.fea.tmp ${f/-FontForge/}/features.fea
 done
 
-fontmake --verbose $DEBUG -m NotoSansTagalog.designspace -o variable --keep-overlaps --optimize-cff 0 --no-optimize-gvar --keep-direction --output-path NotoSansTagalog.ttf
-ttfautohint -s NotoSansTagalog.ttf NotoSansTagalog-hinted.ttf
-mv NotoSansTagalog-hinted.ttf dist/NotoSansTagalog.ttf
+fontmake --verbose $DEBUG -m NotoSansTagalog.designspace -o variable --keep-overlaps --optimize-cff 0 --no-optimize-gvar --keep-direction --output-path NotoSansTagalog[wght].ttf
+ttfautohint -s NotoSansTagalog[wght].ttf NotoSansTagalog-hinted.ttf
+rm dist/*
+mv NotoSansTagalog-hinted.ttf dist/NotoSansTagalog[wght].ttf
 
 fontmake --verbose $DEBUG -m NotoSansTagalog.designspace -o ttf -i --keep-overlaps --optimize-cff 0 --keep-direction
 mv instance_ttf/*.ttf dist
 rmdir instance_ttf
+
+for f in dist/*.ttf; do
+    gftools fix-dsig --autofix "$f"
+done
