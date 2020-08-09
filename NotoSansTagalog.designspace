@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="weight" minimum="400" maximum="700" default="400"/>
+  </axes>
+  <rules>
+    <rule name="ra_crossing">
+      <conditionset>
+        <condition name="weight" minimum="625" maximum="700"/>
+      </conditionset>
+      <sub name="uni170D" with="uni170D.avar"/>
+    </rule>
+    <rule name="ya_gap">
+      <conditionset>
+        <condition name="weight" minimum="625" maximum="700"/>
+      </conditionset>
+      <sub name="uni170C" with="uni170C.avar"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="NotoSansTagalog-Regular.ufo" name="master.NotoSansTagalog.Regular.0" familyname="NotoSansTagalog" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="NotoSansTagalog-Bold.ufo" name="master.NotoSansTagalog.Bold.0" familyname="NotoSansTagalog" stylename="Bold">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="instance_Regular" familyname="NotoSansTagalog" stylename="Regular" filename="instances/NotoSansTagalog-Regular.ufo">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Medium" familyname="NotoSansTagalog" stylename="Medium" filename="instances/NotoSansTagalog-Medium.ufo">
+      <location>
+        <dimension name="weight" xvalue="500"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Demi" familyname="NotoSansTagalog" stylename="Demi" filename="instances/NotoSansTagalog-Demi.ufo">
+      <location>
+        <dimension name="weight" xvalue="600"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Bold" familyname="NotoSansTagalog" stylename="Bold" filename="instances/NotoSansTagalog-Bold.ufo">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

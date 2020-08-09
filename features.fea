@@ -1,0 +1,55 @@
+@top_kudlit = [uni1712 uni1712.hollow];
+@bottom_kudlit = [uni1713 uni1713.hollow];
+@kudlit = [uni1712 uni1713];
+@kudlit_hollow = [uni1712.hollow uni1713.hollow];
+@all_kudlit = [@top_kudlit @bottom_kudlit];
+
+# VS1 = uniFE00
+feature ccmp {
+  lookup ccmp_1 {
+    sub @kudlit' uniFE00 by @kudlit_hollow;
+  } ccmp_1;
+} ccmp;
+
+# ZWNJ = uni200C (pahantig / padalawa)
+feature calt {
+  lookup calt_1 {
+    sub uni200C' @kudlit' @kudlit' by padalawa;
+    sub uni200C' @kudlit_hollow' @kudlit_hollow' by padalawa_hollow_hollow;
+    sub uni200C' @kudlit_hollow' @kudlit' by padalawa_hollow;
+    sub uni200C' @kudlit' @kudlit_hollow' by padalawa_hollow2;
+    sub uni200C' @kudlit' by pahantig;
+    sub uni200C' @kudlit_hollow' by pahantig_hollow;
+  } calt_1;
+} calt;
+
+# Hollow kudlit
+feature salt {
+  lookup salt_1 {
+    sub uni1712 by uni1712.hollow;
+    sub uni1713 by uni1713.hollow;
+    sub uni1714 by uni1714.salt;
+  } salt_1;
+} salt;
+
+# X_shaped virama
+feature cv01 {
+  lookup cv01_1 {
+    sub uni1714 by uni1714.salt;
+  } cv01_1;
+} cv01;
+
+# Hollow kudlit
+feature cv02 {
+  lookup cv02_1 {
+    sub uni1712 by uni1712.hollow;
+    sub uni1713 by uni1713.hollow;
+  } cv02_1;
+} cv02;
+
+# Ra to archaic Ra
+feature hist {
+  lookup hist_1 {
+    sub uni170D by uni171F;
+  } hist_1;
+} hist;
