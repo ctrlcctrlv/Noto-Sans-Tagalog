@@ -2,7 +2,14 @@
 
 Noto Sans Tagalog, the Noto _baybayin_ font, as a variable font.
 
-# Building
+* [Specimen](https://raw.githubusercontent.com/ctrlcctrlv/Noto-Sans-Tagalog-v3/master/specimen.pdf)
+* [Documentation](https://raw.githubusercontent.com/ctrlcctrlv/Noto-Sans-Tagalog-v3/master/documentation.pdf)
+
+## Download the fonts
+* [Variable font](https://github.com/ctrlcctrlv/Noto-Sans-Tagalog-v3/raw/master/dist/NotoSansTagalog.ttf)
+* [All font instances](https://github.com/ctrlcctrlv/Noto-Sans-Tagalog-v3/tree/master/dist)
+
+## Building
 
 To build, you need:
 
