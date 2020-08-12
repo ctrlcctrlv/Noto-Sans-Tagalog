@@ -19,7 +19,6 @@ for f in *FontForge.ufo; do
 done
 
 fontmake --verbose $DEBUG -m NotoSansTagalog.designspace -o variable --keep-overlaps --optimize-cff 0 --no-optimize-gvar --keep-direction --output-path NotoSansTagalog[wght].ttf
-ttfautohint -s NotoSansTagalog[wght].ttf NotoSansTagalog-hinted.ttf
 rm dist/*
 mv NotoSansTagalog-hinted.ttf dist/NotoSansTagalog[wght].ttf
 
@@ -29,4 +28,11 @@ rmdir instance_ttf
 
 for f in dist/*.ttf; do
     gftools fix-dsig --autofix "$f"
+done
+
+cd dist
+for f in *-*.ttf; do
+    ttfautohint -s "$f" "$f-hinted"
+    mv "$f-hinted" "$f"
+    echo "Autohinted $f"
 done
