@@ -72,6 +72,7 @@ KernClass2: 3 2 "PamudpodKern-1"
 LangName: 13321 "" "Noto Sans Baybayin" "" "" "Noto Sans Baybayin Bold"
 LangName: 1033 "Copyright 2020 The Noto Sans Tagalog Project Authors (https://github.com/ctrlcctrlv/Noto-Sans-Tagalog-v3)" "" "" "" "" "Version 3.000" "" "Noto is a trademark of Google Inc." "Monotype Imaging Inc." "Monotype Design Team" "Designed by Monotype design team." "http://www.google.com/get/noto/" "http://www.monotype.com/studio" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an +ACIA-AS IS+ACIA BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." "http://scripts.sil.org/OFL"
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -444,7 +445,7 @@ GlifName: uni1705
 Width: 2022
 VWidth: 0
 GlyphClass: 2
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "Anchor1" 1128 0 basechar 0
 AnchorPoint: "Anchor0" 976 1386 basechar 0
 AnchorPoint: "Anchor-1" 1128 0 basechar 0

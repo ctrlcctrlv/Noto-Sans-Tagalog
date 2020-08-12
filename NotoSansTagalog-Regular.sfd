@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1596957163
-ModificationTime: 1596975864
+ModificationTime: 1597225807
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -72,6 +72,7 @@ KernClass2: 3 2 "PamudpodKern-1"
 LangName: 13321 "" "Noto Sans Baybayin" "" "" "Noto Sans Baybayin Regular"
 LangName: 1033 "Copyright 2020 The Noto Sans Tagalog Project Authors (https://github.com/ctrlcctrlv/Noto-Sans-Tagalog-v3)" "" "" "3.000;GOOG;NotoSansTagalog-Regular" "" "Version 3.000" "" "Noto is a trademark of Google Inc." "Monotype Imaging Inc." "Monotype Design Team" "Designed by Monotype design team." "http://www.google.com/get/noto/" "http://www.monotype.com/studio" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an +ACIA-AS IS+ACIA BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." "http://scripts.sil.org/OFL"
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -85,7 +86,7 @@ Grid
  3000 -18.3603515625 l 1024
 EndSplineSet
 AnchorClass2: "Mkmk" "Mkmk-1" "Anchor0" "markMarkPositioninginTagaloglookup0 subtable" "Anchor1" "markMarkPositioninginTagaloglookup1 subtable" "Anchor-0"""  "Anchor-1""" 
-BeginChars: 52 47
+BeginChars: 52 46
 
 StartChar: .notdef
 Encoding: 0 0 0
@@ -448,7 +449,7 @@ GlifName: uni1705
 Width: 2022
 VWidth: 0
 GlyphClass: 2
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "Anchor1" 1128 0 basechar 0
 AnchorPoint: "Anchor0" 976 1386 basechar 0
 AnchorPoint: "Anchor-1" 1128 0 basechar 0
@@ -1269,18 +1270,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.35.1
-Encoding: 30 5919 30
-GlifName: N_ameM_e.35.1
-Width: 2000
-VWidth: 0
-GlyphClass: 2
-Flags: HMW
-LayerCount: 2
-EndChar
-
 StartChar: uni170D
-Encoding: 31 5901 31
+Encoding: 31 5901 30
 GlifName: uni170D_
 Width: 2096
 VWidth: 0
@@ -1326,7 +1317,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1734
-Encoding: 32 5940 32
+Encoding: 32 5940 31
 GlifName: uni1734
 Width: 268
 VWidth: 0
@@ -1350,7 +1341,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1712.hollow
-Encoding: 33 -1 33
+Encoding: 33 -1 32
 GlifName: uni1712.hollow
 Width: 0
 VWidth: 0
@@ -1377,7 +1368,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1713.hollow
-Encoding: 34 -1 34
+Encoding: 34 -1 33
 GlifName: uni1713.hollow
 Width: 0
 VWidth: 0
@@ -1404,7 +1395,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni171F
-Encoding: 35 5919 35
+Encoding: 35 5919 34
 GlifName: uni171F_
 Width: 1618
 VWidth: 0
@@ -1448,7 +1439,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniFE00
-Encoding: 36 65024 36
+Encoding: 36 65024 35
 GlifName: uniF_E_00
 Width: 0
 VWidth: 0
@@ -1458,7 +1449,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uni170C.avar
-Encoding: 37 -1 37
+Encoding: 37 -1 36
 GlifName: uni170C_.avar
 Width: 2058
 VWidth: 0
@@ -1501,7 +1492,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni170D.avar
-Encoding: 38 -1 38
+Encoding: 38 -1 37
 GlifName: uni170D_.avar
 Width: 2096
 VWidth: 0
@@ -1547,7 +1538,7 @@ EndSplineSet
 EndChar
 
 StartChar: _ra_tail
-Encoding: 39 -1 39
+Encoding: 39 -1 38
 GlifName: _ra_tail
 Width: 2096
 VWidth: 0
@@ -1567,7 +1558,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1714.salt
-Encoding: 40 -1 40
+Encoding: 40 -1 39
 GlifName: uni1714.salt
 Width: 0
 VWidth: 0
@@ -1595,7 +1586,7 @@ EndSplineSet
 EndChar
 
 StartChar: pahantig
-Encoding: 41 -1 41
+Encoding: 41 -1 40
 GlifName: pahantig
 Width: 444
 VWidth: 0
@@ -1615,7 +1606,7 @@ EndSplineSet
 EndChar
 
 StartChar: pahantig_hollow
-Encoding: 42 -1 42
+Encoding: 42 -1 41
 GlifName: pahantig_hollow
 Width: 444
 VWidth: 0
@@ -1623,7 +1614,7 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
-Refer: 34 -1 N 1 0 0 1 420 754 2
+Refer: 33 -1 N 1 0 0 1 420 754 2
 Fore
 SplineSet
 129 628 m 256
@@ -1640,7 +1631,7 @@ EndSplineSet
 EndChar
 
 StartChar: padalawa
-Encoding: 43 -1 43
+Encoding: 43 -1 42
 GlifName: padalawa
 Width: 444
 VWidth: 0
@@ -1666,7 +1657,7 @@ EndSplineSet
 EndChar
 
 StartChar: padalawa_hollow
-Encoding: 44 -1 44
+Encoding: 44 -1 43
 GlifName: padalawa_hollow
 Width: 444
 VWidth: 0
@@ -1675,7 +1666,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Refer: 22 5907 N 1 0 0 1 420 606 2
-Refer: 34 -1 N 1 0 0 1 420 934 2
+Refer: 33 -1 N 1 0 0 1 420 934 2
 Fore
 SplineSet
 129 808 m 256
@@ -1697,7 +1688,7 @@ EndSplineSet
 EndChar
 
 StartChar: padalawa_hollow2
-Encoding: 45 -1 45
+Encoding: 45 -1 44
 GlifName: padalawa_hollow2
 Width: 444
 VWidth: 0
@@ -1706,7 +1697,7 @@ Flags: HMW
 LayerCount: 2
 Back
 Refer: 22 5907 N 1 0 0 1 420 1008 2
-Refer: 34 -1 N 1 0 0 1 420 534 2
+Refer: 33 -1 N 1 0 0 1 420 534 2
 Fore
 SplineSet
 129 408 m 256
@@ -1728,7 +1719,7 @@ EndSplineSet
 EndChar
 
 StartChar: padalawa_hollow_hollow
-Encoding: 46 -1 46
+Encoding: 46 -1 45
 GlifName: padalawa_hollow_hollow
 Width: 444
 VWidth: 0
@@ -1736,8 +1727,8 @@ GlyphClass: 2
 Flags: HMW
 LayerCount: 2
 Back
-Refer: 34 -1 N 1 0 0 1 420 534 2
-Refer: 34 -1 N 1 0 0 1 420 934 2
+Refer: 33 -1 N 1 0 0 1 420 534 2
+Refer: 33 -1 N 1 0 0 1 420 934 2
 Fore
 SplineSet
 129 808 m 256
