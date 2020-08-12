@@ -20,7 +20,7 @@ done
 
 fontmake --verbose $DEBUG -m NotoSansTagalog.designspace -o variable --keep-overlaps --optimize-cff 0 --no-optimize-gvar --keep-direction --output-path NotoSansTagalog[wght].ttf
 rm dist/*
-mv NotoSansTagalog-hinted.ttf dist/NotoSansTagalog[wght].ttf
+mv 'NotoSansTagalog[wght].ttf' 'dist/NotoSansTagalog[wght].ttf'
 
 fontmake --verbose $DEBUG -m NotoSansTagalog.designspace -o ttf -i --keep-overlaps --optimize-cff 0 --keep-direction
 mv instance_ttf/*.ttf dist

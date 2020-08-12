@@ -3,7 +3,7 @@
   <axes>
     <axis tag="wght" name="weight" minimum="400" maximum="700" default="400"/>
   </axes>
-  <rules>
+  <rules processing="last">
     <rule name="ra_crossing">
       <conditionset>
         <condition name="weight" minimum="625" maximum="700"/>

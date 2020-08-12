@@ -4,6 +4,7 @@ from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, Source
 
 root = os.getcwd()
 doc = DesignSpaceDocument()
+doc.rulesProcessingLast = True
 
 familyName = "NotoSansTagalog"
 
