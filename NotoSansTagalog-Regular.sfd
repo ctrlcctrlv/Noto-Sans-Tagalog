@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1596957163
-ModificationTime: 1597245092
+ModificationTime: 1603090859
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -151,7 +151,7 @@ GlifName: uni1700
 Width: 2028
 VWidth: 0
 GlyphClass: 2
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -1048,7 +1048,6 @@ VWidth: 0
 GlyphClass: 4
 Flags: HMW
 AnchorPoint: "Anchor1" -248 0 mark 0
-AnchorPoint: "Anchor-1" -248 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1284,6 +1283,7 @@ EndChar
 
 StartChar: uni1734
 Encoding: 32 5940 31
+AltUni2: 001715.ffffffff.0
 GlifName: uni1734
 Width: 268
 VWidth: 0

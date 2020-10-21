@@ -147,7 +147,7 @@ GlifName: uni1700
 Width: 2068
 VWidth: 0
 GlyphClass: 2
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -1280,6 +1280,7 @@ EndChar
 
 StartChar: uni1734
 Encoding: 32 5940 31
+AltUni2: 001715.ffffffff.0
 GlifName: uni1734
 Width: 298
 VWidth: 0
